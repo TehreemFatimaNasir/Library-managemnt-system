@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\librarymanagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\models\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:models\\returnbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\book\\checkstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\book\\checkstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\book\\finerecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\book\\finerecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\book\\issuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\book\\issuebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\book\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\book\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\student\\registerstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\student\\registerstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\views\\book\\issuedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:views\\book\\issuedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\models\\finerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:models\\finerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\models\\issuebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:models\\issuebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\models\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:models\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\migrations\\20250224074118_addfinerecordstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:migrations\\20250224074118_addfinerecordstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|c:\\users\\dell\\source\\repos\\librarymanagement\\migrations\\20250223120414_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6B2786-D37B-4844-BC07-E3BF31D2A02F}|librarymanagement.csproj|solutionrelative:migrations\\20250223120414_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\CheckStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\CheckStatus.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\CheckStatus.cshtml",
+              "RelativeToolTip": "Views\\Book\\CheckStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T12:42:30.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReturnBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\ReturnBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\ReturnBook.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\ReturnBook.cshtml",
+              "RelativeToolTip": "Views\\Book\\ReturnBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T12:40:59.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IssueBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\IssueBook.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\IssueBook.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\IssueBook.cshtml",
+              "RelativeToolTip": "Views\\Book\\IssueBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T12:37:47.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FineRecords.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\FineRecords.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\FineRecords.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\FineRecords.cshtml",
+              "RelativeToolTip": "Views\\Book\\FineRecords.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T07:46:26.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReturnBook.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\ReturnBook.cs",
+              "RelativeDocumentMoniker": "Models\\ReturnBook.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\ReturnBook.cs",
+              "RelativeToolTip": "Models\\ReturnBook.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:32:40.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwBcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:16:47.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:32:50.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:42:06.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Student\\RegisterStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\RegisterStudent.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Student\\RegisterStudent.cshtml",
+              "RelativeToolTip": "Views\\Student\\RegisterStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T10:40:34.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IssuedBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\IssuedBooks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\IssuedBooks.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Views\\Book\\IssuedBooks.cshtml",
+              "RelativeToolTip": "Views\\Book\\IssuedBooks.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T20:27:36.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:37:35.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FineRecord.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\FineRecord.cs",
+              "RelativeDocumentMoniker": "Models\\FineRecord.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\FineRecord.cs",
+              "RelativeToolTip": "Models\\FineRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:36:50.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IssueBook.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\IssueBook.cs",
+              "RelativeDocumentMoniker": "Models\\IssueBook.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\IssueBook.cs",
+              "RelativeToolTip": "Models\\IssueBook.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:32:22.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\LibraryDbContext.cs",
+              "RelativeToolTip": "Models\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:33:16.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250224074118_AddFineRecordsTable.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Migrations\\20250224074118_AddFineRecordsTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250224074118_AddFineRecordsTable.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Migrations\\20250224074118_AddFineRecordsTable.cs",
+              "RelativeToolTip": "Migrations\\20250224074118_AddFineRecordsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:41:19.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T11:31:54.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250223120414_cs.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Migrations\\20250223120414_cs.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250223120414_cs.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\Migrations\\20250223120414_cs.cs",
+              "RelativeToolTip": "Migrations\\20250223120414_cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:04:14.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\librarymanagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\librarymanagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T11:44:32.129Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

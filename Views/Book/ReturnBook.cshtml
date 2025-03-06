@@ -1,0 +1,131 @@
+﻿@model librarymanagement.Models.ReturnBook
+
+@{
+    ViewData["Title"] = "Return Book";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header text-white" style="background: #5D4037;">
+            <h3 class="text-center">📚 Return Book</h3>
+        </div>
+        <div class="card-body bg-light">
+            <form asp-action="ReturnBook">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+            
+                <div class="mb-3">
+                    <label asp-for="studentid" class="form-label fw-bold">Student ID</label>
+                    <input asp-for="studentid" class="form-control" placeholder="Enter Student ID" />
+                    <span asp-validation-for="studentid" class="text-danger"></span>
+                </div>
+
+        
+                <div class="mb-3">
+                    <label asp-for="bookname" class="form-label fw-bold">Book Name</label>
+                    <input asp-for="bookname" class="form-control" placeholder="Enter Book Name" />
+                    <span asp-validation-for="bookname" class="text-danger"></span>
+                </div>
+
+    
+                <div class="mb-3">
+                    <label asp-for="authorname" class="form-label fw-bold">Author Name</label>
+                    <input asp-for="authorname" class="form-control" placeholder="Enter Author Name" />
+                    <span asp-validation-for="authorname" class="text-danger"></span>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label asp-for="returndate" class="form-label fw-bold">Return Date</label>
+                    <input asp-for="returndate" class="form-control" placeholder="Select Return Date" />
+                    <span asp-validation-for="returndate" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="fineamount" class="form-label fw-bold">Fine Amount (Rs)</label>
+                    <div class="input-group">
+                        <span class="input-group-text">Rs</span>
+                        <input asp-for="fineamount" class="form-control" placeholder="Enter Fine Amount" />
+                    </div>
+                    <span asp-validation-for="fineamount" class="text-danger"></span>
+                </div>
+
+                
+                @if (Model?.returndate != null && Model.returndate != DateTime.MinValue)
+                {
+                    <div class="mb-3">
+                        <label asp-for="returndate" class="form-label fw-bold">Return Date</label>
+                        <input asp-for="returndate" class="form-control" readonly />
+                    </div>
+                }
+
+                @if (Model?.fineamount > 0)
+                {
+                    <div class="mb-3">
+                        <label asp-for="fineamount" class="form-label fw-bold">Fine Amount (Rs)</label>
+                        <div class="input-group">
+                            <span class="input-group-text">Rs</span>
+                            <input asp-for="fineamount" class="form-control" readonly />
+                        </div>
+                    </div>
+                }
+
+    
+                <button type="submit" class="btn w-100" style="background: #795548; color: white;">Return Book</button>
+            </form>
+
+        
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger mt-3">
+                    <strong>Error:</strong> @ViewBag.ErrorMessage
+                </div>
+            }
+
+            
+            @if (ViewBag.Fine != null && ViewBag.Fine > 0)
+            {
+                <div class="alert alert-warning mt-3">
+                    <strong>Late Return!</strong> Fine: <strong>Rs @ViewBag.Fine</strong>
+                </div>
+            }
+
+    
+            <div class="text-center mt-3">
+                <a asp-controller="Student" asp-action="Index" class="btn btn-outline-dark shadow">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    body {
+        background: #F5E1C8; /* Soft beige */
+        color: #5D4037; /* Coffee brown */
+    }
+
+    .card {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .btn {
+        transition: 0.3s;
+        font-weight: 500;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: #8D6E63;
+            color: white;
+        }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

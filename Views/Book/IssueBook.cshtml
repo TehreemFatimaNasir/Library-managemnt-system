@@ -1,0 +1,74 @@
+﻿@model librarymanagement.Models.IssueBook
+
+@{
+    ViewData["Title"] = "Issue Book";
+}
+
+<h2 class="text-center text-coffee fw-bold mt-3">Issue a Book</h2>
+
+
+<form asp-controller="Book" asp-action="IssueBook" method="post" class="p-4 border rounded shadow-lg bg-light">
+    <div class="form-group mb-3">
+        <label for="studentid" class="fw-bold text-coffee">Student ID:</label>
+        <input type="number" id="studentid" name="studentid" class="form-control shadow-sm" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="studentname" class="fw-bold text-coffee">Student Name:</label>
+        <input type="text" id="studentname" name="studentname" class="form-control shadow-sm" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="bookname" class="fw-bold text-coffee">Book Name:</label>
+        <input type="text" id="bookname" name="bookname" class="form-control shadow-sm" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="authorname" class="fw-bold text-coffee">Author Name:</label>
+        <input type="text" id="authorname" name="authorname" class="form-control shadow-sm" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="issuedate" class="fw-bold text-coffee">Issue Date:</label>
+        <input type="date" id="issuedate" name="issuedate" class="form-control shadow-sm" required />
+    </div>
+    <div class="form-group mb-3">
+        <label for="duedate" class="fw-bold text-coffee">Due Date:</label>
+        <input type="date" id="duedate" name="duedate" class="form-control shadow-sm" required />
+    </div>
+    <button type="submit" class="btn btn-golden shadow-sm fw-bold px-4 py-2">Issue Book</button>
+</form>
+
+<style>
+    body {
+        background-color: #F5F5DC; /* Beige */
+    }
+
+    .text-coffee {
+        color: #6F4E37; /* Coffee Brown */
+    }
+
+    .btn-golden {
+        background-color: #D4AF37; /* Golden */
+        color: white;
+        border: none;
+    }
+
+        .btn-golden:hover {
+            background-color: #B8860B; /* Darker Golden */
+            color: white;
+        }
+
+    .form-control {
+        border: 1px solid #6F4E37;
+    }
+
+        .form-control:focus {
+            border-color: #D4AF37;
+            box-shadow: 0 0 5px #D4AF37;
+        }
+
+    .shadow-lg {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .border {
+        border-color: #6F4E37 !important;
+    }
+</style>

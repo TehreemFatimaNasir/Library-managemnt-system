@@ -1,0 +1,113 @@
+﻿@model IEnumerable<librarymanagement.Models.IssueBook>
+
+@{
+    ViewData["Title"] = "Issued Books";
+}
+
+<h2 class="text-center text-coffee fw-bold mt-3">Issued Books</h2>
+
+<p class="d-flex gap-2">
+    <a asp-controller="Student" asp-action="RegisterStudent" class="btn btn-dark shadow">
+        Register Student
+    </a>
+
+    <a asp-controller="Book" asp-action="ReturnBook" class="btn btn-dark shadow">
+        Return Book
+    </a>
+</p>
+
+<table class="table table-bordered shadow">
+    <thead class="bg-coffee text-white">
+        <tr>
+            <th class="text-center">@Html.DisplayNameFor(model => model.studentid)</th>
+            <th class="text-center">@Html.DisplayNameFor(model => model.studentname)</th>
+            <th class="text-center">@Html.DisplayNameFor(model => model.bookname)</th>
+            <th class="text-center">@Html.DisplayNameFor(model => model.authorname)</th>
+            <th class="text-center">@Html.DisplayNameFor(model => model.issuedate)</th>
+            <th class="text-center">@Html.DisplayNameFor(model => model.duedate)</th> 
+            <th class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.studentid)</td>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.studentname)</td>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.bookname)</td>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.authorname)</td>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.issuedate)</td>
+                <td class="text-center">@Html.DisplayFor(modelItem => item.duedate)</td> 
+                <td class="text-center">
+                    
+                    <a asp-controller="Book" asp-action="CheckStatus" asp-route-studentId="@item.studentid"
+                       class="btn btn-golden shadow-sm fw-bold px-3 py-2">
+                        Check Status
+                    </a>
+
+                 
+                    <form asp-action="Remove" asp-route-id="@item.Id" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-golden shadow-sm fw-bold px-3 py-2">
+                            Remove
+                        </button>
+                    </form>
+
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    body {
+        background-color: #F5F5DC; /* Beige */
+    }
+
+    .text-coffee {
+        color: #6F4E37; /* Coffee Brown */
+    }
+
+    .bg-coffee {
+        background-color: #6F4E37; /* Coffee Brown */
+    }
+
+    .btn-golden {
+        background-color: #D4AF37; /* Golden */
+        color: white;
+        border: none;
+    }
+
+        .btn-golden:hover {
+            background-color: #B8860B; /* Darker Golden */
+            color: white;
+        }
+
+    .table {
+        border: 2px solid #6F4E37;
+    }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table tbody tr:hover {
+            background-color: #FFF8DC; /* Light golden hover */
+        }
+
+    .btn-sm {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+  
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .gap-2 {
+        gap: 10px;
+    }
+</style>

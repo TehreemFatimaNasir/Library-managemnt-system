@@ -1,0 +1,70 @@
+﻿@model IEnumerable<librarymanagement.Models.FineRecord>
+
+@{
+    ViewData["Title"] = "Fine Records";
+}
+
+<h2 class="text-center text-coffee fw-bold mt-3">Fine Records</h2>
+
+
+<a asp-controller="Book" asp-action="FineRecords" class="btn btn-golden shadow-sm mb-3 fw-bold px-4 py-2">View Fine Records</a>
+
+<table class="table table-bordered shadow-sm text-center">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Book Name</th>
+            <th>Fine Amount</th>
+            <th>Fine Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fine in Model)
+        {
+            <tr class="align-middle">
+                <td>@fine.studentid</td>
+                <td>@fine.bookname</td>
+                <td>Rs @fine.fineamount</td>
+                <td>@fine.finedate.ToString("yyyy-MM-dd")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    body {
+        background-color: #F5F5DC; /* Beige */
+    }
+
+    .text-coffee {
+        color: #6F4E37; /* Coffee Brown */
+    }
+
+    .bg-coffee {
+        background-color: #6F4E37; /* Coffee Brown */
+    }
+
+    .table th {
+        background-color: #6F4E37 !important; /* Dark Coffee */
+        color: white !important;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: #F5DEB3; /* Light Golden Beige */
+    }
+
+    .table tbody tr:nth-child(odd) {
+        background-color: #FAEBD7; /* Antique White */
+    }
+
+    .btn-golden {
+        background-color: #D4AF37; /* Golden */
+        color: white;
+        border: none;
+    }
+
+        .btn-golden:hover {
+            background-color: #B8860B; /* Darker Golden */
+            color: white;
+        }
+</style>

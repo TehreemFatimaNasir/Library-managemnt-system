@@ -1,0 +1,79 @@
+﻿@model librarymanagement.Models.Student
+
+@{
+    ViewData["Title"] = "Register Student";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header text-white" style="background: #5D4037;">
+            <h3 class="text-center">📖 Register Student</h3>
+        </div>
+        <div class="card-body bg-light">
+            <form asp-action="RegisterStudent">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="name" class="form-label">Name</label>
+                    <input asp-for="name" class="form-control" placeholder="Enter Student Name">
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="studentid" class="form-label">Student ID</label>
+                    <input asp-for="studentid" class="form-control" placeholder="Enter Student ID">
+                    <span asp-validation-for="studentid" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="semester" class="form-label">Semester</label>
+                    <input asp-for="semester" class="form-control" placeholder="Enter Semester">
+                    <span asp-validation-for="semester" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="department" class="form-label">Department</label>
+                    <input asp-for="department" class="form-control" placeholder="Enter Department">
+                    <span asp-validation-for="department" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="contactnumber" class="form-label">Contact Number</label>
+                    <input asp-for="contactnumber" class="form-control" placeholder="Enter Contact Number">
+                    <span asp-validation-for="contactnumber" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn w-100" style="background: #795548; color: white;"> Register</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="text-center mt-3">
+        <a asp-action="Index" class="btn btn-outline-dark shadow"> Back to List</a>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #F5E1C8; /* Soft beige */
+        color: #5D4037; /* Coffee brown */
+    }
+
+    .card {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .btn {
+        transition: 0.3s;
+        font-weight: 500;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: #8D6E63;
+            color: white;
+        }
+</style>
