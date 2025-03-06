@@ -22,6 +22,12 @@ Database Integration:-
 
 Uses Entity Framework Core for database operations.
 
+User Downloads & Usage:
+
+You can download or clone this project from GitHub:-
+
+https://github.com/TehreemFatimaNasir/Library-managemnt-system   
+
 
 https://github.com/user-attachments/assets/62cabb2a-b6cb-45a2-9ed2-6934994c43db
 
